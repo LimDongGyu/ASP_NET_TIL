@@ -39,8 +39,8 @@
                 <tr>
                     <td></td>
                     <td colspan="2">
-                        <asp:Button ID="btnSave" runat="server" Text="Save" />
-                        <asp:Button ID="btnDelete" runat="server" Text="Delete" />
+                        <asp:Button ID="btnSave" runat="server" Text="Save" OnClick="btnSave_Click" />
+                        <asp:Button ID="btnDelete" runat="server" Text="Delete" OnClick="btnDelete_OnClick"/>
                         <asp:Button ID="btnClear" runat="server" Text="Clear" OnClick="btnClear_Click" />
                     </td>
                 </tr>
@@ -69,7 +69,7 @@
 
                     <asp:TemplateField>
                         <ItemTemplate>
-                            <asp:LinkButton ID="lnkView" runat="server" CommandArgument='<%# Eval("ContactID") %>'>View</asp:LinkButton>
+                            <asp:LinkButton ID="lnkSelect" Text="Select" CommandArgument='<%# Eval("ContactID") %>' runat="server" OnClick="lnkSelect_OnClick"/>
                         </ItemTemplate>
                     </asp:TemplateField>
                 </Columns>
