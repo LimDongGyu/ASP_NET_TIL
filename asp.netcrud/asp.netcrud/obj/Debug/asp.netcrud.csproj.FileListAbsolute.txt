@@ -31,3 +31,39 @@ c:\users\lim\documents\visual studio 2015\Projects\asp.netcrud\asp.netcrud\bin\M
 c:\users\lim\documents\visual studio 2015\Projects\asp.netcrud\asp.netcrud\obj\Debug\asp.netcrud.csprojResolveAssemblyReference.cache
 c:\users\lim\documents\visual studio 2015\Projects\asp.netcrud\asp.netcrud\obj\Debug\asp.netcrud.dll
 c:\users\lim\documents\visual studio 2015\Projects\asp.netcrud\asp.netcrud\obj\Debug\asp.netcrud.pdb
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\ApplicationInsights.config
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\roslyn\csc.exe
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\roslyn\vbc.exe
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\roslyn\VBCSCompiler.exe
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\asp.netcrud.dll.config
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\asp.netcrud.dll
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\asp.netcrud.pdb
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\Microsoft.AI.Web.dll
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\Microsoft.ApplicationInsights.dll
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\MySql.Data.dll
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\Google.Protobuf.dll
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\Microsoft.AI.Web.xml
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\Microsoft.ApplicationInsights.xml
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\bin\MySql.Data.xml
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\obj\Debug\asp.netcrud.csprojResolveAssemblyReference.cache
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\obj\Debug\asp.netcrud.dll
+C:\Users\lim\Desktop\Git\ASP_NET_TIL\asp.netcrud\asp.netcrud\obj\Debug\asp.netcrud.pdb
