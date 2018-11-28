@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - 내 ASP.NET 응용 프로그램</title>
+    
+    @Styles.Render("~/Content/css")
+    <!-- 모든 페이지에서 공통적으로 사용되는 스타일 시트 파일 중 해당 키명("~/Content/css")
+        으로 정의된 스타일 시트 파일을 해당 위치에 일괄 렌더링한다. -->
+
+    @Scripts.Render("~/bundles/modernizr")
+    
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                
+                @Html.ActionLink("응용 프로그램 이름", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                <!-- HTML 객체는 Razor 엔진을 이용해 동적으로 각종 HTML 코드를 만들어주는 객체로
+                     Html.ActionLink("홈", "index", "Home") 코드는 링크 태그(A 태그)를 만들고
+                     연결텍스트는 홈으로 링크주소는 HomeController에 Index 액션 메서드로 연결한다.
+                        
+                                    = <a href="/Home/Index">홈</a>
+                -->
+
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("홈", "Index", "Home")</li>
+                    <li>@Html.ActionLink("정보", "About", "Home")</li>
+                    <li>@Html.ActionLink("연락처", "Contact", "Home")</li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+
+        <!-- RenderBody() : 해당 레이아웃 페이지를 사용하는 콘텐츠 페이지 뷰의 콘텐츠가 로딩되는 영역 -->
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - 내 ASP.NET 응용 프로그램</p>
+        </footer>
+    </div>
+
+    <!-- 모든 페이지에서 공통적으로 사용되는 자바 스크립트 파일 중 해당 키명으로 정의된
+        자바스크립트 파일을 해당 위치에 일괄 렌더링한다. -->
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+
+    @RenderSection("scripts", required: false)
+    <!-- 레이아웃 페이지에 삽입되는 콘텐츠 뷰 페이지나 부분 뷰페이지 내에 scripts라고
+        선언된 섹션 영역이 존재하면 해당 섹션 내의 스크립트 블록이 레이아웃 페이지의
+        해당 위치에 일괄 출력됨 -->
+
+</body>
+</html>
