@@ -1,0 +1,16 @@
+C:\ASPNET\Basic\BasicModels\obj\Debug\netstandard2.0\BasicModels.csprojAssemblyReference.cache
+C:\ASPNET\Basic\BasicModels\obj\Debug\netstandard2.0\BasicModels.csproj.CoreCompileInputs.cache
+C:\ASPNET\Basic\BasicModels\obj\Debug\netstandard2.0\BasicModels.AssemblyInfoInputs.cache
+C:\ASPNET\Basic\BasicModels\obj\Debug\netstandard2.0\BasicModels.AssemblyInfo.cs
+C:\ASPNET\Basic\BasicModels\bin\Debug\netstandard2.0\BasicModels.deps.json
+C:\ASPNET\Basic\BasicModels\bin\Debug\netstandard2.0\BasicModels.dll
+C:\ASPNET\Basic\BasicModels\bin\Debug\netstandard2.0\BasicModels.pdb
+C:\ASPNET\Basic\BasicModels\bin\Debug\netstandard2.0\System.ComponentModel.DataAnnotations.dll
+C:\ASPNET\Basic\BasicModels\bin\Debug\netstandard2.0\System.Configuration.dll
+C:\ASPNET\Basic\BasicModels\bin\Debug\netstandard2.0\System.Security.dll
+C:\ASPNET\Basic\BasicModels\bin\Debug\netstandard2.0\System.ComponentModel.DataAnnotations.xml
+C:\ASPNET\Basic\BasicModels\bin\Debug\netstandard2.0\System.Configuration.xml
+C:\ASPNET\Basic\BasicModels\bin\Debug\netstandard2.0\System.Security.xml
+C:\ASPNET\Basic\BasicModels\obj\Debug\netstandard2.0\BasicModels.csproj.CopyComplete
+C:\ASPNET\Basic\BasicModels\obj\Debug\netstandard2.0\BasicModels.dll
+C:\ASPNET\Basic\BasicModels\obj\Debug\netstandard2.0\BasicModels.pdb
