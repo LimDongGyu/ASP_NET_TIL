@@ -1,0 +1,11 @@
+C:\ASPNET\Basic\BasicCore\bin\Debug\netcoreapp2.1\BasicCore.deps.json
+C:\ASPNET\Basic\BasicCore\bin\Debug\netcoreapp2.1\BasicCore.runtimeconfig.json
+C:\ASPNET\Basic\BasicCore\bin\Debug\netcoreapp2.1\BasicCore.runtimeconfig.dev.json
+C:\ASPNET\Basic\BasicCore\bin\Debug\netcoreapp2.1\BasicCore.dll
+C:\ASPNET\Basic\BasicCore\obj\Debug\netcoreapp2.1\BasicCore.csprojAssemblyReference.cache
+C:\ASPNET\Basic\BasicCore\obj\Debug\netcoreapp2.1\BasicCore.csproj.CoreCompileInputs.cache
+C:\ASPNET\Basic\BasicCore\obj\Debug\netcoreapp2.1\BasicCore.RazorAssemblyInfo.cache
+C:\ASPNET\Basic\BasicCore\obj\Debug\netcoreapp2.1\BasicCore.RazorAssemblyInfo.cs
+C:\ASPNET\Basic\BasicCore\obj\Debug\netcoreapp2.1\BasicCore.AssemblyInfoInputs.cache
+C:\ASPNET\Basic\BasicCore\obj\Debug\netcoreapp2.1\BasicCore.AssemblyInfo.cs
+C:\ASPNET\Basic\BasicCore\obj\Debug\netcoreapp2.1\BasicCore.RazorTargetAssemblyInfo.cache

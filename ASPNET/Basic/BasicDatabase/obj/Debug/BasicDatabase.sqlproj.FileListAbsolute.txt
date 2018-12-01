@@ -3,7 +3,4 @@ C:\ASPNET\Basic\BasicDatabase\bin\Debug\BasicDatabase.dll
 C:\ASPNET\Basic\BasicDatabase\bin\Debug\BasicDatabase.pdb
 C:\ASPNET\Basic\BasicDatabase\obj\Debug\BasicDatabase.dll
 C:\ASPNET\Basic\BasicDatabase\obj\Debug\BasicDatabase.pdb
-C:\ASPNET\Basic\BasicDatabase\obj\Debug\Model.xml
-C:\ASPNET\Basic\BasicDatabase\obj\Debug\refactor.xml
-C:\ASPNET\Basic\BasicDatabase\obj\Debug\postdeploy.sql
-C:\ASPNET\Basic\BasicDatabase\obj\Debug\predeploy.sql
+C:\ASPNET\Basic\BasicDatabase\obj\Debug\BasicDatabase.sqlprojAssemblyReference.cache

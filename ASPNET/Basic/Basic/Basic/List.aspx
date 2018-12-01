@@ -3,12 +3,77 @@
     Inherits="Basic.Basic.List" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeaderContent" runat="server">
+    <style>
+        th{
+            text-align:center;
+        }
+    </style>
 </asp:Content>
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+
     <h2>기본형 게시판 리스트</h2>
 
+    <!-- 글쓰기 페이지로 이동 -->
+    <asp:HyperLink ID="lnkWrite" runat="server"
+        NavigateUrl="Write.aspx"
+        CssClass="btn btn-primary">
+        글쓰기</asp:HyperLink>
 
+    <!-- 출력 페이지 -->
+    <asp:GridView ID="ctlBasicList" runat="server"
+
+        ItemType="BasicModels.Basic"
+
+        CssClass="table table-bordered table-hover table-striped"
+        AutoGenerateColumns="false"
+        
+        HeaderStyle-HorizontalAlign="Center"
+        >
+
+        <Columns>
+            <asp:TemplateField HeaderText="번호"
+                HeaderStyle-Width="50px"
+                ItemStyle-HorizontalAlign="Center">
+                <ItemTemplate>
+                    <%# Item.Id %>
+                </ItemTemplate>
+            </asp:TemplateField>
+            
+            <asp:TemplateField HeaderText="제목"
+                HeaderStyle-Width="350px"
+                ItemStyle-HorizontalAlign="Left">
+                <ItemTemplate>
+                    <asp:HyperLink ID="lnkTitle" runat="server"
+                        NavigateUrl=
+                        '<%# "View.aspx?Id=" + Item.Id %>'>
+                       <%# Item.Title %>
+                    </asp:HyperLink>
+                </ItemTemplate>
+            </asp:TemplateField>
+
+            <asp:BoundField DataField="Name" HeaderText="작성자"
+                HeaderStyle-Width="60px"
+                ItemStyle-HorizontalAlign="Center" />
+
+            <asp:TemplateField HeaderText="작성일"
+                ItemStyle-Width="90px"
+                ItemStyle-HorizontalAlign="Center">
+                
+                <ItemTemplate>
+                    <%# Item.PostDate.ToString("yyyy-MM-dd") %>
+                </ItemTemplate>
+
+            </asp:TemplateField>
+
+            <asp:BoundField DataField="ReadCount" HeaderText="조회수"
+                ItemStyle-HorizontalAlign="Right"
+                HeaderStyle-Width="60px"
+                />
+        </Columns>
+
+        
+    </asp:GridView>
 
 </asp:Content>

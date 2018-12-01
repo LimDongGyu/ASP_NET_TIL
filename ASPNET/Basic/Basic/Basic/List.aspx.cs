@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BasicModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,19 @@ namespace Basic.Basic
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            //처음 로드할 때만
+            if (!Page.IsPostBack)
+            {
+                DisplayData();
+            }
+        }
 
+        private void DisplayData()
+        {
+            var repository = new BasicRepository();
+
+            ctlBasicList.DataSource = repository.GetAll();
+            ctlBasicList.DataBind();
         }
     }
 }
