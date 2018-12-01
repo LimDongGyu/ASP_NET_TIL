@@ -386,6 +386,7 @@
     <Content Include="Template\assets\vendor\footable\fonts\footable.ttf" />
     <Content Include="Template\assets\vendor\footable\fonts\footable.woff" />
     <Content Include="Views\TermHome\Index.cshtml" />
+    <Content Include="Views\TermHome\Feedback.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
