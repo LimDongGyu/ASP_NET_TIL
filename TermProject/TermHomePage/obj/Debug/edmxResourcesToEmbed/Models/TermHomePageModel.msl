@@ -25,21 +25,6 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="Articles">
-      <EntityTypeMapping TypeName="TermHomePageModel.Articles">
-        <MappingFragment StoreEntitySet="Articles">
-          <ScalarProperty Name="ArticleIDX" ColumnName="ArticleIDX" />
-          <ScalarProperty Name="Title" ColumnName="Title" />
-          <ScalarProperty Name="Contents" ColumnName="Contents" />
-          <ScalarProperty Name="ViewCnt" ColumnName="ViewCnt" />
-          <ScalarProperty Name="IPAddress" ColumnName="IPAddress" />
-          <ScalarProperty Name="RegistMemberID" ColumnName="RegistMemberID" />
-          <ScalarProperty Name="RegistDate" ColumnName="RegistDate" />
-          <ScalarProperty Name="ModifyMemberID" ColumnName="ModifyMemberID" />
-          <ScalarProperty Name="ModifyDate" ColumnName="ModifyDate" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="Members">
       <EntityTypeMapping TypeName="TermHomePageModel.Members">
         <MappingFragment StoreEntitySet="Members">
@@ -66,6 +51,22 @@
         <MappingFragment StoreEntitySet="ArticleCategories">
           <ScalarProperty Name="RegistDate" ColumnName="RegistDate" />
           <ScalarProperty Name="CategoryCode" ColumnName="CategoryCode" />
+          <ScalarProperty Name="ArticleIDX" ColumnName="ArticleIDX" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Articles">
+      <EntityTypeMapping TypeName="TermHomePageModel.Articles">
+        <MappingFragment StoreEntitySet="Articles">
+          <ScalarProperty Name="ModifyDate" ColumnName="ModifyDate" />
+          <ScalarProperty Name="ModifyMemberID" ColumnName="ModifyMemberID" />
+          <ScalarProperty Name="RegistDate" ColumnName="RegistDate" />
+          <ScalarProperty Name="RegistMemberID" ColumnName="RegistMemberID" />
+          <ScalarProperty Name="IPAddress" ColumnName="IPAddress" />
+          <ScalarProperty Name="ViewCnt" ColumnName="ViewCnt" />
+          <ScalarProperty Name="Contents" ColumnName="Contents" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
           <ScalarProperty Name="ArticleIDX" ColumnName="ArticleIDX" />
         </MappingFragment>
       </EntityTypeMapping>

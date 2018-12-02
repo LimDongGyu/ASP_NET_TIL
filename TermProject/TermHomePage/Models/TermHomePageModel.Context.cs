@@ -27,9 +27,9 @@ namespace TermHomePage.Models
     
         public virtual DbSet<ArticleComments> ArticleComments { get; set; }
         public virtual DbSet<ArticleFiles> ArticleFiles { get; set; }
-        public virtual DbSet<Articles> Articles { get; set; }
         public virtual DbSet<Members> Members { get; set; }
         public virtual DbSet<Categories> Categories { get; set; }
         public virtual DbSet<ArticleCategories> ArticleCategories { get; set; }
+        public virtual DbSet<Articles> Articles { get; set; }
     }
 }

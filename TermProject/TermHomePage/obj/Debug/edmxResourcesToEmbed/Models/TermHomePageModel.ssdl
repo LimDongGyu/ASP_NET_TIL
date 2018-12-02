@@ -37,13 +37,14 @@
       <PropertyRef Name="ArticleIDX" />
     </Key>
     <Property Name="ArticleIDX" Type="int" Nullable="false" />
+    <Property Name="Category" Type="nvarchar" MaxLength="100" />
     <Property Name="Title" Type="nvarchar" MaxLength="200" />
     <Property Name="Contents" Type="ntext" />
     <Property Name="ViewCnt" Type="int" />
-    <Property Name="IPAddress" Type="nvarchar" MaxLength="20" />
-    <Property Name="RegistMemberID" Type="nvarchar" MaxLength="20" />
+    <Property Name="IPAddress" Type="varchar" MaxLength="50" />
+    <Property Name="RegistMemberID" Type="varchar" MaxLength="50" />
     <Property Name="RegistDate" Type="datetime" />
-    <Property Name="ModifyMemberID" Type="nvarchar" MaxLength="20" />
+    <Property Name="ModifyMemberID" Type="varchar" MaxLength="50" />
     <Property Name="ModifyDate" Type="datetime" />
   </EntityType>
   <EntityType Name="Categories">

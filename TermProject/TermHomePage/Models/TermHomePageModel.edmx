@@ -42,13 +42,14 @@
             <PropertyRef Name="ArticleIDX" />
           </Key>
           <Property Name="ArticleIDX" Type="int" Nullable="false" />
+          <Property Name="Category" Type="nvarchar" MaxLength="100" />
           <Property Name="Title" Type="nvarchar" MaxLength="200" />
           <Property Name="Contents" Type="ntext" />
           <Property Name="ViewCnt" Type="int" />
-          <Property Name="IPAddress" Type="nvarchar" MaxLength="20" />
-          <Property Name="RegistMemberID" Type="nvarchar" MaxLength="20" />
+          <Property Name="IPAddress" Type="varchar" MaxLength="50" />
+          <Property Name="RegistMemberID" Type="varchar" MaxLength="50" />
           <Property Name="RegistDate" Type="datetime" />
-          <Property Name="ModifyMemberID" Type="nvarchar" MaxLength="20" />
+          <Property Name="ModifyMemberID" Type="varchar" MaxLength="50" />
           <Property Name="ModifyDate" Type="datetime" />
         </EntityType>
         <EntityType Name="Categories">
@@ -105,20 +106,6 @@
           <Property Name="FileFormat" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="UploadDate" Type="DateTime" Precision="3" />
         </EntityType>
-        <EntityType Name="Articles">
-          <Key>
-            <PropertyRef Name="ArticleIDX" />
-          </Key>
-          <Property Name="ArticleIDX" Type="Int32" Nullable="false" />
-          <Property Name="Title" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
-          <Property Name="Contents" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="ViewCnt" Type="Int32" />
-          <Property Name="IPAddress" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
-          <Property Name="RegistMemberID" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
-          <Property Name="RegistDate" Type="DateTime" Precision="3" />
-          <Property Name="ModifyMemberID" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
-          <Property Name="ModifyDate" Type="DateTime" Precision="3" />
-        </EntityType>
         <EntityType Name="Members">
           <Key>
             <PropertyRef Name="MemberID" />
@@ -133,10 +120,10 @@
         <EntityContainer Name="TermHomePageEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="ArticleComments" EntityType="Self.ArticleComments" />
           <EntitySet Name="ArticleFiles" EntityType="Self.ArticleFiles" />
-          <EntitySet Name="Articles" EntityType="Self.Articles" />
           <EntitySet Name="Members" EntityType="Self.Members" />
           <EntitySet Name="Categories" EntityType="TermHomePageModel.Categories" />
           <EntitySet Name="ArticleCategories" EntityType="TermHomePageModel.ArticleCategories" />
+          <EntitySet Name="Articles" EntityType="TermHomePageModel.Articles" />
         </EntityContainer>
         <EntityType Name="Categories">
           <Key>
@@ -154,6 +141,21 @@
           <Property Name="ArticleIDX" Type="Int32" Nullable="false" />
           <Property Name="CategoryCode" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="RegistDate" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="Articles">
+          <Key>
+            <PropertyRef Name="ArticleIDX" />
+          </Key>
+          <Property Name="ArticleIDX" Type="Int32" Nullable="false" />
+          <Property Name="Category" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Title" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="Contents" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ViewCnt" Type="Int32" />
+          <Property Name="IPAddress" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="RegistMemberID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="RegistDate" Type="DateTime" Precision="3" />
+          <Property Name="ModifyMemberID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ModifyDate" Type="DateTime" Precision="3" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -185,21 +187,6 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="Articles">
-            <EntityTypeMapping TypeName="TermHomePageModel.Articles">
-              <MappingFragment StoreEntitySet="Articles">
-                <ScalarProperty Name="ArticleIDX" ColumnName="ArticleIDX" />
-                <ScalarProperty Name="Title" ColumnName="Title" />
-                <ScalarProperty Name="Contents" ColumnName="Contents" />
-                <ScalarProperty Name="ViewCnt" ColumnName="ViewCnt" />
-                <ScalarProperty Name="IPAddress" ColumnName="IPAddress" />
-                <ScalarProperty Name="RegistMemberID" ColumnName="RegistMemberID" />
-                <ScalarProperty Name="RegistDate" ColumnName="RegistDate" />
-                <ScalarProperty Name="ModifyMemberID" ColumnName="ModifyMemberID" />
-                <ScalarProperty Name="ModifyDate" ColumnName="ModifyDate" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
           <EntitySetMapping Name="Members">
             <EntityTypeMapping TypeName="TermHomePageModel.Members">
               <MappingFragment StoreEntitySet="Members">
@@ -226,6 +213,22 @@
               <MappingFragment StoreEntitySet="ArticleCategories">
                 <ScalarProperty Name="RegistDate" ColumnName="RegistDate" />
                 <ScalarProperty Name="CategoryCode" ColumnName="CategoryCode" />
+                <ScalarProperty Name="ArticleIDX" ColumnName="ArticleIDX" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Articles">
+            <EntityTypeMapping TypeName="TermHomePageModel.Articles">
+              <MappingFragment StoreEntitySet="Articles">
+                <ScalarProperty Name="ModifyDate" ColumnName="ModifyDate" />
+                <ScalarProperty Name="ModifyMemberID" ColumnName="ModifyMemberID" />
+                <ScalarProperty Name="RegistDate" ColumnName="RegistDate" />
+                <ScalarProperty Name="RegistMemberID" ColumnName="RegistMemberID" />
+                <ScalarProperty Name="IPAddress" ColumnName="IPAddress" />
+                <ScalarProperty Name="ViewCnt" ColumnName="ViewCnt" />
+                <ScalarProperty Name="Contents" ColumnName="Contents" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Category" ColumnName="Category" />
                 <ScalarProperty Name="ArticleIDX" ColumnName="ArticleIDX" />
               </MappingFragment>
             </EntityTypeMapping>
