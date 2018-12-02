@@ -15,6 +15,7 @@ namespace TermHomePage.Models
     public partial class Articles
     {
         public int ArticleIDX { get; set; }
+        public string Category { get; set; }
         public string Title { get; set; }
         public string Contents { get; set; }
         public Nullable<int> ViewCnt { get; set; }

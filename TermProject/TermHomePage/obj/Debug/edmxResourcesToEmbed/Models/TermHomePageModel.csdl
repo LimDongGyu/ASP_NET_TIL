@@ -23,20 +23,6 @@
     <Property Name="FileFormat" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="UploadDate" Type="DateTime" Precision="3" />
   </EntityType>
-  <EntityType Name="Articles">
-    <Key>
-      <PropertyRef Name="ArticleIDX" />
-    </Key>
-    <Property Name="ArticleIDX" Type="Int32" Nullable="false" />
-    <Property Name="Title" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
-    <Property Name="Contents" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-    <Property Name="ViewCnt" Type="Int32" />
-    <Property Name="IPAddress" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
-    <Property Name="RegistMemberID" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
-    <Property Name="RegistDate" Type="DateTime" Precision="3" />
-    <Property Name="ModifyMemberID" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
-    <Property Name="ModifyDate" Type="DateTime" Precision="3" />
-  </EntityType>
   <EntityType Name="Members">
     <Key>
       <PropertyRef Name="MemberID" />
@@ -51,10 +37,10 @@
   <EntityContainer Name="TermHomePageEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="ArticleComments" EntityType="Self.ArticleComments" />
     <EntitySet Name="ArticleFiles" EntityType="Self.ArticleFiles" />
-    <EntitySet Name="Articles" EntityType="Self.Articles" />
     <EntitySet Name="Members" EntityType="Self.Members" />
     <EntitySet Name="Categories" EntityType="TermHomePageModel.Categories" />
     <EntitySet Name="ArticleCategories" EntityType="TermHomePageModel.ArticleCategories" />
+    <EntitySet Name="Articles" EntityType="TermHomePageModel.Articles" />
   </EntityContainer>
   <EntityType Name="Categories">
     <Key>
@@ -72,5 +58,20 @@
     <Property Name="ArticleIDX" Type="Int32" Nullable="false" />
     <Property Name="CategoryCode" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="RegistDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Articles">
+    <Key>
+      <PropertyRef Name="ArticleIDX" />
+    </Key>
+    <Property Name="ArticleIDX" Type="Int32" Nullable="false" />
+    <Property Name="Category" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Title" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Contents" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ViewCnt" Type="Int32" />
+    <Property Name="IPAddress" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RegistMemberID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RegistDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifyMemberID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ModifyDate" Type="DateTime" Precision="3" />
   </EntityType>
 </Schema>

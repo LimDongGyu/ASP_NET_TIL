@@ -5,7 +5,6 @@ using System.Web;
 using System.Web.Mvc;
 using TermHomePage.Models;
 using System.Data.Entity;
-using TermHomePage.Models;
 
 
 namespace TermHomePage.Controllers

@@ -5,12 +5,12 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="536261aab5ad4c8594102accc9b57f40" Name="Diagram1" ZoomLevel="93">
-        <EntityTypeShape EntityType="TermHomePageModel.ArticleComments" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="TermHomePageModel.ArticleFiles" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="TermHomePageModel.Articles" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TermHomePageModel.ArticleComments" Width="1.5" PointX="4.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TermHomePageModel.ArticleFiles" Width="1.5" PointX="1.25" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="TermHomePageModel.Members" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="TermHomePageModel.Categories" Width="1.5" PointX="2.625" PointY="3.25" />
-        <EntityTypeShape EntityType="TermHomePageModel.ArticleCategories" Width="1.5" PointX="4.5" PointY="4.125" />
+        <EntityTypeShape EntityType="TermHomePageModel.Categories" Width="1.5" PointX="2.625" PointY="3.25" IsExpanded="true"/>
+        <EntityTypeShape EntityType="TermHomePageModel.ArticleCategories" Width="1.5" PointX="4.5" PointY="4.125" IsExpanded="true"/>
+        <EntityTypeShape EntityType="TermHomePageModel.Articles" Width="1.5" PointX="6.375" PointY="1"/>
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
