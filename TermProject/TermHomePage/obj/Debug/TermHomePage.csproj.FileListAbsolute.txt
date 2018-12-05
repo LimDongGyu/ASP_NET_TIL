@@ -207,7 +207,6 @@ C:\Users\lim-laptop\Documents\GitHub\ASP_NET_TIL\TermProject\TermHomePage\bin\ko
 C:\Users\lim-laptop\Documents\GitHub\ASP_NET_TIL\TermProject\TermHomePage\bin\ko\System.Net.Http.Formatting.resources.dll
 C:\Users\lim-laptop\Documents\GitHub\ASP_NET_TIL\TermProject\TermHomePage\bin\ko\System.Web.Http.resources.dll
 C:\Users\lim-laptop\Documents\GitHub\ASP_NET_TIL\TermProject\TermHomePage\bin\ko\System.Web.Http.WebHost.resources.dll
-C:\Users\lim-laptop\Documents\GitHub\ASP_NET_TIL\TermProject\TermHomePage\obj\Debug\TermHomePage.csprojAssemblyReference.cache
 C:\Users\lim-laptop\Documents\GitHub\ASP_NET_TIL\TermProject\TermHomePage\obj\Debug\TermHomePage.csproj.CoreCompileInputs.cache
 C:\Users\lim-laptop\Documents\GitHub\ASP_NET_TIL\TermProject\TermHomePage\obj\Debug\TermHomePage.csproj.CopyComplete
 C:\Users\lim-laptop\Documents\GitHub\ASP_NET_TIL\TermProject\TermHomePage\obj\Debug\TermHomePage.dll
@@ -217,4 +216,3 @@ C:\Users\lim-laptop\Documents\GitHub\ASP_NET_TIL\TermProject\TermHomePage\bin\En
 C:\Users\lim-laptop\Documents\GitHub\ASP_NET_TIL\TermProject\TermHomePage\bin\EntityFramework.xml
 C:\Users\lim-laptop\Documents\GitHub\ASP_NET_TIL\TermProject\TermHomePage\bin\EntityFramework.SqlServer.xml
 C:\Users\lim-laptop\Documents\GitHub\ASP_NET_TIL\TermProject\TermHomePage\bin\ko\EntityFramework.resources.dll
-C:\Users\lim-laptop\Documents\GitHub\ASP_NET_TIL\TermProject\TermHomePage\bin\Template\assets\custom\images\userpic06.jpg

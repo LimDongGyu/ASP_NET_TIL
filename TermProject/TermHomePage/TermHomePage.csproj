@@ -347,9 +347,7 @@
     <Content Include="Template\assets\custom\images\userpic03.jpg" />
     <Content Include="Template\assets\custom\images\userpic04.jpg" />
     <Content Include="Template\assets\custom\images\userpic05.jpg" />
-    <Content Include="Template\assets\custom\images\userpic06.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="Template\assets\custom\images\userpic06.jpg" />
     <Content Include="Template\assets\custom\js\custom.js" />
     <Content Include="Template\assets\custom\php\form.php" />
     <Content Include="Template\assets\vendor\anicounter\jquery.counterup.min.js" />
