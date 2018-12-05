@@ -231,6 +231,7 @@
       <DependentUpon>TermHomePageModel.edmx</DependentUpon>
       <LastGenOutput>TermHomePageModel.cs</LastGenOutput>
     </Content>
+    <Content Include="Portfolio\portfolio.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -320,6 +321,7 @@
     <Content Include="Template\assets\custom\images\magazine\thumbs\06.jpg" />
     <Content Include="Template\assets\custom\images\magazine\thumbs\07.jpg" />
     <Content Include="Template\assets\custom\images\magazine\thumbs\08.jpg" />
+    <Content Include="Template\assets\custom\images\magazine\userpic06.jpg" />
     <Content Include="Template\assets\custom\images\menu-trans.png" />
     <Content Include="Template\assets\custom\images\partners_01.png" />
     <Content Include="Template\assets\custom\images\partners_02.png" />
@@ -345,6 +347,9 @@
     <Content Include="Template\assets\custom\images\userpic03.jpg" />
     <Content Include="Template\assets\custom\images\userpic04.jpg" />
     <Content Include="Template\assets\custom\images\userpic05.jpg" />
+    <Content Include="Template\assets\custom\images\userpic06.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Template\assets\custom\js\custom.js" />
     <Content Include="Template\assets\custom\php\form.php" />
     <Content Include="Template\assets\vendor\anicounter\jquery.counterup.min.js" />
@@ -391,7 +396,7 @@
     <Content Include="Template\assets\vendor\waypoints\waypoints.min.js" />
     <Content Include="Template\assets\vendor\wow\animate.css" />
     <Content Include="Template\assets\vendor\wow\wow.min.js" />
-    <Content Include="Template\blog.html" />
+    <Content Include="Template\assets\vendor\blog.html" />
     <Content Include="Template\blogpost.html" />
     <Content Include="Template\contacts.html" />
     <Content Include="Template\feedback.html" />
@@ -456,6 +461,8 @@
     <Content Include="Views\Board\ArticleList.cshtml" />
     <Content Include="Views\Board\Edit.cshtml" />
     <Content Include="Views\Board\Create.cshtml" />
+    <Content Include="Views\TermHome\Portfolio.cshtml" />
+    <Content Include="Portfolio\Portfolio.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

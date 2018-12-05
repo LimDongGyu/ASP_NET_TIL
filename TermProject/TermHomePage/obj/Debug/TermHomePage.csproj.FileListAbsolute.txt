@@ -217,3 +217,4 @@ C:\Users\lim-laptop\Documents\GitHub\ASP_NET_TIL\TermProject\TermHomePage\bin\En
 C:\Users\lim-laptop\Documents\GitHub\ASP_NET_TIL\TermProject\TermHomePage\bin\EntityFramework.xml
 C:\Users\lim-laptop\Documents\GitHub\ASP_NET_TIL\TermProject\TermHomePage\bin\EntityFramework.SqlServer.xml
 C:\Users\lim-laptop\Documents\GitHub\ASP_NET_TIL\TermProject\TermHomePage\bin\ko\EntityFramework.resources.dll
+C:\Users\lim-laptop\Documents\GitHub\ASP_NET_TIL\TermProject\TermHomePage\bin\Template\assets\custom\images\userpic06.jpg
