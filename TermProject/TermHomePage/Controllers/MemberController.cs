@@ -35,8 +35,8 @@ namespace TermHomePage.Controllers
             {
                 ViewBag.Result = "FAIL";
             }
-            return View(member);
-            //return RedirectToAction("List", "Member");
+            //return View(member);
+            return RedirectToAction("List", "Member");
         }
 
 
